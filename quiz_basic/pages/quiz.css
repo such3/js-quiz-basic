@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid span {
+    margin: 20px ;
+}
+.timer{
+    font-size: 20px;
+}
+.sl-no{
+    margin-right: 10px;
+}
+.quiz-body{
+    align-self: center;
+    width: 600px;
+    height: 550px;
+    background-color: rgba(222, 226, 230, 0.1);
+    border-radius: 20px;
+}
+.question{
+    padding: 30px;
+    font-size: x-large;
+}
+.form-check{
+    font-size: 20px;
+    margin: 15px 30px 15px 80px;
+
+}
+.control-options{
+    justify-content: center;
+}
+.control{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.hidden {
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.option-box{
+    margin-top: 30px;
+}
+.form-check-label:hover{
+    cursor: pointer;
+}
+input[name="flexRadio"]:hover{
+    cursor: pointer;
+}
